@@ -87,5 +87,11 @@ class CatalogDataInitializer implements DataInitializer {
 		videoCatalog.save(new Disc("Oldboy", "old", Money.of(24.99, EURO), "Action/Drama/Thriller", DiscType.BLURAY));
 		videoCatalog.save(new Disc("Bill & Ted's Excellent Adventure", "bt", Money.of(29.99, EURO),
 				"Adventure/Comedy/Family", DiscType.BLURAY));
+
+		videoCatalog.save(new Disc("Shrek 1", "shrek", Money.of(1500.00, EURO), "Kulturgut/Legenden/Abenteuer", DiscType.DVD));
+		videoCatalog.save(new Disc("Shrek 2", "shrek2", Money.of(69.00, EURO), "Kulturgut/Legenden/Action", DiscType.DVD));
+		videoCatalog.save(new Disc("Shrek 3", "shrek3jpg", Money.of(12.00, EURO), "Kulturgut/Legenden/Abenteuer", DiscType.DVD));
+		videoCatalog.save(new Disc("Shrek 4", "shrek4", Money.of(15.00, EURO), "Kulturgut/Legenden/Abenteuer", DiscType.BLURAY));
+		
 	}
 }
